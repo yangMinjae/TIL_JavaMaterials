@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="chapter02_variable_dataType/src"/>
+	<classpathentry kind="src" path="chapter03_operator/src"/>
+	<classpathentry kind="src" path="chapter04_control/src"/>
+	<classpathentry kind="src" path="chapter05_array/src"/>
+	<classpathentry kind="src" path="chapter06_OOP/src"/>
+	<classpathentry kind="src" path="chapter07_method/src"/>
+	<classpathentry kind="src" path="chapter08_contructor/src"/>
+	<classpathentry kind="output" path="chapter02_variable_dataType/bin"/>
+</classpath>
