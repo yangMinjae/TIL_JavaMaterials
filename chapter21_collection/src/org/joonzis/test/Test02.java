@@ -46,7 +46,7 @@ public class Test02 {
 			if(!b.contains(c)) {
 				i--;
 				System.out.println();
-				System.out.println("이전에 입력한 숫자 입력 !! ");
+				System.out.println("이전에 입력한/범위밖의 숫자 입력 !! ");
 				System.out.println();
 				continue;
 			}

@@ -11,7 +11,7 @@ public class Test01 {
 		list.add(new Board("광고", "화장품 광고.",new Date(118,8,6)));
 		list.add(new Board("광고", "홍삼 광고",new Date(111,4,6)));
 		
-		Iterator itr = list.iterator();
+		Iterator<Board> itr = list.iterator();
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
