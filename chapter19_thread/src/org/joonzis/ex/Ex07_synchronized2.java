@@ -1,6 +1,6 @@
 package org.joonzis.ex;
 
-public class Exd07_synchronized2 {
+public class Ex07_synchronized2 {
 
 	public static void main(String[] args) {
 		StringDisplay sd = new StringDisplay();
