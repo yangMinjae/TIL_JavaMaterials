@@ -19,9 +19,9 @@ public class Ex04_select {
 			rs = ps.executeQuery();
 			
 			while(rs.next()) {
-				System.out.println(rs.getString(1)+", ");
-				System.out.println(rs.getInt(2)+", ");
-				System.out.println(rs.getString(3));
+				System.out.print(rs.getString(1)+", ");
+				System.out.print(rs.getInt(2)+", ");
+				System.out.print(rs.getString(3));
 			}
 		}catch (Exception e) {
 			try {
