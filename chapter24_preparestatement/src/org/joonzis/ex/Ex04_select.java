@@ -24,13 +24,7 @@ public class Ex04_select {
 				System.out.print(rs.getString(3));
 			}
 		}catch (Exception e) {
-			try {
-				if(conn != null) {
-					conn.rollback();
-				}
-			} catch (Exception e2) {
-				e2.printStackTrace();
-			}
+			e.printStackTrace();
 		}finally {
 			try {				
 				if(rs!=null)rs.close();
